@@ -22,6 +22,7 @@ public class Config extends JFinalConfig {
 
     @Override
     public void configRoute(Routes routes) {
+        routes.setBaseViewPath("views");
         routes.add("/hello",HelloController.class);
         routes.add("/user",UserController.class);
     }
