@@ -12,9 +12,31 @@ import java.util.List;
 public class User extends BaseUser<User> {
 	public static final User dao = new User().dao();
 
+	/**
+	 * @Author DuJian
+	 * @Description 查询比年龄参数大的用户
+	 * @Date 11:42 2018/11/29
+	 * @Param [age]
+	 * @return java.util.List<com.dujian.model.User>
+	 **/
 	public List<User> findUsersByAge(Integer age){
+	    String sql="select * from user where age > ?";
 		if (age != null)
-		return dao.find("select * from user where age>"+age);
+		return dao.find(sql,age);
 		return dao.find("select * from user");
+	}
+
+	/**
+	 * @Author DuJian
+	 * @Description 根据用户名查询用户
+	 * @Date 11:42 2018/11/29
+	 * @Param [username]
+	 * @return java.util.List<com.dujian.model.User>
+	 **/
+	public List<User> findUsersByUsername(String username){
+	    String sql="select * from user where username = ?";
+		if (username != null)
+			return dao.find(sql,username);
+		return null;
 	}
 }

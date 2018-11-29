@@ -3,7 +3,7 @@
         <title>jfinalDemo</title>
     </head>
     <body>
-        <h1>JFinal Demo 项目首页</h1>
+        <h1>用户列表</h1>
 
         <div class="table_box">
             <#list users as user>

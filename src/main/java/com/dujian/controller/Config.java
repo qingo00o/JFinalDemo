@@ -2,6 +2,7 @@ package com.dujian.controller;
 
 import com.dujian.model.User;
 import com.jfinal.config.*;
+import com.jfinal.ext.handler.ContextPathHandler;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
@@ -23,6 +24,7 @@ public class Config extends JFinalConfig {
     @Override
     public void configRoute(Routes routes) {
         routes.setBaseViewPath("views");
+        routes.add("/",HelloController.class);
         routes.add("/hello",HelloController.class);
         routes.add("/user",UserController.class);
     }
@@ -49,7 +51,8 @@ public class Config extends JFinalConfig {
 
     @Override
     public void configHandler(Handlers handlers) {
-
+        //添加后在页面可以使用${ctx}的方式引用项目路径
+        handlers.add(new ContextPathHandler("ctx"));
     }
 
 
