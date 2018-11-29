@@ -21,22 +21,24 @@ public class User extends BaseUser<User> {
 	 **/
 	public List<User> findUsersByAge(Integer age){
 	    String sql="select * from user where age > ?";
-		if (age != null)
-		return dao.find(sql,age);
-		return dao.find("select * from user");
+	    if (age==null)
+	        return find("select * from user");
+		return find(sql,age);
 	}
 
 	/**
 	 * @Author DuJian
 	 * @Description 根据用户名查询用户
-	 * @Date 11:42 2018/11/29
+	 * @Date 11:56 2018/11/29
 	 * @Param [username]
-	 * @return java.util.List<com.dujian.model.User>
+	 * @return com.dujian.model.User
 	 **/
-	public List<User> findUsersByUsername(String username){
+
+	public User findUsersByUsername(String username){
 	    String sql="select * from user where username = ?";
-		if (username != null)
-			return dao.find(sql,username);
-		return null;
+        User user = findFirst(sql,username);
+		return user;
 	}
+
+
 }
