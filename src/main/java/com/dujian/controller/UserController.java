@@ -27,16 +27,9 @@ public class UserController extends Controller {
         System.out.println("username:"+username);
         String password = getPara("password");
 
-        List<User> userList = new User().findUsersByUsername(username);
-        User user=null;
-        if (userList==null || userList.size()==0){
-            result.put("status","error");
-            renderJson(result);
-            return;
-        } else
-            user=userList.get(0);
+        User user= new User().findUsersByUsername(username);
 
-        if (!user.getPassword().equals(password)){
+        if (user==null || !user.getPassword().equals(password)){
             result.put("status","error");
             renderJson(result);
             return;
