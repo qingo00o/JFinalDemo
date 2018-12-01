@@ -5,18 +5,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="663768e4-5f85-4c5d-a421-bcb650c031e8" name="默认更改列表" comment="随便改改">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/system/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/layui/layui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dujian/controller/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dujian/controller/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dujian/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dujian/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dujian/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dujian/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/system/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/system/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dujian/controller/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dujian/controller/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dujian/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dujian/controller/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dujian/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dujian/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dujian/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dujian/model/User.class" afterDir="false" />
     </list>
@@ -35,8 +135,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="342">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +156,37 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GeneratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.3/jfinal-3.3-sources.jar!/com/jfinal/plugin/activerecord/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+              <folding>
+                <element signature="e#16934#16935#0" expanded="true" />
+                <element signature="e#16974#16975#0" expanded="true" />
+                <element signature="e#19272#19273#0" expanded="true" />
+                <element signature="e#19317#19318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,18 +197,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +217,8 @@
       <file leaf-file-name="login.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/system/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="421">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -115,7 +230,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -148,9 +263,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dujian/controller/Config.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dujian/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dujian/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/system/login.ftl" />
       </list>
     </option>
@@ -169,8 +284,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="591" />
+    <option name="y" value="208" />
+    <option name="width" value="827" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,33 +369,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfinalDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfinalDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfinalDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfinalDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jfinalDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jfinalDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinalDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +393,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CustomSJDD" />
+    <property name="last_opened_file_path" value="D:/HuaGeProject/JiaJia" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -312,6 +403,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\jfinalDemo\src\main\webapp\static" />
       <recent name="D:\study\jfinalDemo\src\main\webapp\static\js" />
       <recent name="D:\study\jfinalDemo\src\main\resource" />
       <recent name="D:\study\jfinalDemo\src\main\java\com\dujian\model" />
@@ -414,7 +506,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543376554008</updated>
       <workItem from="1543376558017" duration="16726000" />
-      <workItem from="1543452517877" duration="8892000" />
+      <workItem from="1543452517877" duration="18292000" />
     </task>
     <task id="LOCAL-00001" summary="随便改改">
       <created>1543395788037</created>
@@ -444,11 +536,32 @@
       <option name="project" value="LOCAL" />
       <updated>1543397941993</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="使用Model的dao方法进行数据库操作">
+      <created>1543463387257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543463387257</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1543469091275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543469091275</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <created>1543469106982</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543469106982</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25618000" />
+    <option name="totallyTimeSpent" value="35018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -461,15 +574,15 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.500625" side_tool="true" weight="0.14210527" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.25921053" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.499375" weight="0.14210527" />
       <window_info anchor="right" id="调色板" order="1" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32894737" />
       <window_info id="Capture Tool" order="0" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.195625" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.195625" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="设计器" order="3" />
       <window_info anchor="right" id="Database" order="2" />
@@ -495,7 +608,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="随便改改" />
-    <option name="LAST_COMMIT_MESSAGE" value="随便改改" />
+    <MESSAGE value="使用Model的dao方法进行数据库操作" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.3/jfinal-3.3.jar!/com/jfinal/core/JFinalFilter.class">
@@ -523,16 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GeneratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,13 +686,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.9.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -605,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -623,6 +714,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GeneratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/indexF.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/src/theme/moon/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.3/jfinal-3.3-sources.jar!/com/jfinal/plugin/activerecord/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+          <folding>
+            <element signature="e#16934#16935#0" expanded="true" />
+            <element signature="e#16974#16975#0" expanded="true" />
+            <element signature="e#19272#19273#0" expanded="true" />
+            <element signature="e#19317#19318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/base/model/BaseUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -630,30 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dujian/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/system/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="421">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

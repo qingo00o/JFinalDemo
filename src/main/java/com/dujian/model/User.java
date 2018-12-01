@@ -22,7 +22,7 @@ public class User extends BaseUser<User> {
 	public List<User> findUsersByAge(Integer age){
 	    String sql="select * from user where age > ?";
 	    if (age==null)
-	        return find("select * from user");
+	    return find("select * from user");
 		return find(sql,age);
 	}
 
@@ -39,6 +39,5 @@ public class User extends BaseUser<User> {
         User user = findFirst(sql,username);
 		return user;
 	}
-
 
 }

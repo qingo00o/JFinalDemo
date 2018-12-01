@@ -2,6 +2,8 @@
 <head>
     <title>jfinalDemo</title>
     <script src="${ctx}/static/js/jquery-1.9.1.min.js"></script>
+    <script src="${ctx}/static/layui/layui.js"></script>
+
 
 </head>
 <body>
@@ -32,7 +34,11 @@
                 if (result.status=="OK") {
                     window.location.href=g.ctx+"/user/pushView";
                 }else{
-                    $(".error").css("display","block");
+                    layui.use('layer',function(){
+                        layer.alert("用户名或密码错误！",{
+                            icon: 5, time: 2000, offset: 't', closeBtn: 0, title: '错误信息', btn: [], anim: 2, shade: 0
+                        });
+                    });
                 }
             }
 
